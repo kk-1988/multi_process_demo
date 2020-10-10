@@ -15,7 +15,7 @@ int main(int argc,char *argv[])
 {
 	int pid;
 	
-	pid = vfork();
+	pid = fork();
 	
 	if(-1 == pid)
 		exit(-1);
